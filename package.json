@@ -1,0 +1,27 @@
+{
+  "name": "fregna",
+  "version": "1.0.0",
+  "description": "A Discord bot for managing DnD sessions.",
+  "main": "app.ts",
+  "dependencies": {
+    "@types/node": "^13.9.5",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castlenthesky/fregna.git"
+  },
+  "author": "Brian Henson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castlenthesky/fregna/issues"
+  },
+  "homepage": "https://github.com/castlenthesky/fregna#readme"
+}
