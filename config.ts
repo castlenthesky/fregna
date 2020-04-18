@@ -9,6 +9,13 @@ if (!envConfig) {
   throw new Error("⚠️  Couldn't find .env file  ⚠️");
 }
 
-export default {
-  token: process.env.TOKEN,
+export let config = {
+  youtube: {
+    key: process.env.YOUTUBEAPIKEY,
+  },
+  discord: {
+    bottoken: process.env.DISCORDBOTTOKEN,
+    webhookid: process.env.DISCORDWEBHOOKID,
+    webhooktoken: process.env.DISCORDWEBHOOKTOKEN
+  }
 }
