@@ -5,6 +5,11 @@
   "author": "Brian Henson",
   "license": "MIT",
   "main": "app.ts",
+  "scripts": {
+    "start": "nodemon ./src/app.ts",
+    "test": "mocha",
+    "start:dev": "nodemon ./src/app.ts"
+  },
   "private": true,
   "repository": {
     "type": "git",
@@ -14,20 +19,20 @@
     "url": "https://github.com/castlenthesky/fregna/issues"
   },
   "homepage": "https://github.com/castlenthesky/fregna#readme",
-  "scripts": {
-    "start": "nodemon ./app.ts",
-    "start:dev": "nodemon ./app.ts"
-  },
   "dependencies": {
     "@discordjs/opus": "^0.1.0",
     "@types/node": "^13.9.5",
     "discord.js": "^12.1.1",
     "dotenv": "^8.2.0",
-    "nodemon": "^2.0.2",
     "ffmpeg-static": "^4.0.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.19",
+    "nodemon": "^2.0.2",
     "ytdl-core": "^2.0.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
     "nodemon": "^2.0.2"
   }
 }

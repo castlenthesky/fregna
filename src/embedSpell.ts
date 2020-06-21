@@ -1,4 +1,3 @@
-import config from './config'
 import { Client, MessageEmbed, WebhookClient } from 'discord.js'
 
 // Earth 🍃
